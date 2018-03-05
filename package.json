@@ -1,0 +1,20 @@
+{
+  "name": "koa-mocker",
+  "version": "1.0.0",
+  "description": "koa mock middleware",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./test/index.js"
+  },
+  "keywords": [
+    "mock"
+  ],
+  "author": "yanhao",
+  "license": "ISC",
+  "devDependencies": {
+    "koa": "^2.5.0",
+    "koa-router": "^7.4.0",
+    "nodemon": "^1.17.1"
+  }
+}
