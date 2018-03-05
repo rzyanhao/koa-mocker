@@ -10,6 +10,10 @@
   "keywords": [
     "mock"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:rzyanhao/koa-mocker.git"
+  },
   "author": "yanhao",
   "license": "ISC",
   "devDependencies": {
