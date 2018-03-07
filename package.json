@@ -20,5 +20,8 @@
     "koa": "^2.5.0",
     "koa-router": "^7.4.0",
     "nodemon": "^1.17.1"
+  },
+  "dependencies": {
+    "http-proxy": "^1.16.2"
   }
 }

@@ -1,6 +1,11 @@
 module.exports = {
+    // mock数据开关
     mock: true,
-    list: [
+
+    // proxy开关
+    proxy: true,
+
+    apis: [
         {
             path: '/api/a',
             data: './test/mock/a.json',
@@ -18,6 +23,20 @@ module.exports = {
         {
             path: '/api/d',
             data: './test/mock/d.json',
+        },
+    ],
+
+    proxies: [
+        {
+            path: '/api/v3/*',
+            method: 'all',
+            // http-proxy options
+            options: {
+                target: 'http://10.10.120.180',
+                headers: {
+                    host: 'www.t1.com',
+                }
+            },
         },
     ],
 };
