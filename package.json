@@ -1,6 +1,6 @@
 {
   "name": "koa-mocker",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "koa mock middleware",
   "main": "index.js",
   "scripts": {
